@@ -15,9 +15,6 @@ public class StringSample {
         //metodoIsBlank();
         //metodoLowerUpperCase();
 
-        //dinamica do emissor de cheque valor extenso
-        //Exibir o valor cheque por extenso em 50 caracteres completados por *
-        //Exemplo: Um mil e duzentos reais ***************** -
     }
     static void metodoLowerUpperCase(){
         /* * métodos que tornam as palavras  minusculas respectivamente*/
@@ -33,7 +30,8 @@ public class StringSample {
         /*
          *O metódo concat realiza a junção entre dois alfanumericos,
          * podendo ser de forma recursiva já que o retonro
-         * deste método é um nova String*/
+         * deste método é um nova String
+        */
 
         String nome = "deyvison";
         String sobrenome = "ramos";
@@ -57,10 +55,11 @@ public class StringSample {
 
     }
     static void metodoIsBlank(){
-        /** Retorna true se a string estiver vazia ou contiver apenas
+        /*
+         * Retorna true se a string estiver vazia ou contiver apenas
          codepoints de espaço em branco, caso contrário, false.
          * método disponível desde versão 11
-         * */
+        */
 
         String palavra= "";
 
@@ -71,7 +70,6 @@ public class StringSample {
         //com do java 11
         //vazia = palavra.isBlank();
         System.out.println("A palavra está vazia? " + vazia);
-
 
         //vamos ver a diferença entre isBlank versus isEmpty
         //https://howtodoinjava.com/java11/check-blank-string/#:~:text=isBlank()%20vs%20isEmpty(),not%20check%20the%20string%20length.
