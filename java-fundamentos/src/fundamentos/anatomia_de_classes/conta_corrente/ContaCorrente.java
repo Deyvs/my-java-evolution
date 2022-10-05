@@ -10,8 +10,11 @@ public class ContaCorrente {
         System.out.println("Conta: " + conta.getNumConta());
 
         conta.depositar(1532.2);
-        System.out.println("Seu saldo atual é de: " + conta.getSaldo());
-        conta.depositar(0.0);
+//        System.out.println("Seu saldo atual é de: " + conta.getSaldo());
+//        conta.depositar(0.0);
+        conta.sacar(1532.0);
+        conta.sacar(1.0);
+//        System.out.println("Seu saldo atual é de: " + conta.getSaldo());
 
 
     }

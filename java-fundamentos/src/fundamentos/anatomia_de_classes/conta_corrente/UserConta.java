@@ -26,10 +26,21 @@ public class UserConta {
 
         if(value > 0.0) {
             saldo = saldo + value;
+            System.out.println("Seu saldo atual é de: " + saldo);
         } else {
             System.out.println("O valor de depósito deve ser superior a zero.");
         }
     }
+
+    public void sacar(Double value) {
+        if(saldo > 0 && saldo > value) {
+            saldo -= value;
+            System.out.println("Seu saldo atual é de: " + saldo);
+        } else {
+            System.out.println("Saldo insuficiente para esta transação");
+        }
+    }
+
     public Integer getNumConta() {
         return numConta;
     }
